@@ -63,9 +63,8 @@ class AdultSlideLimitationValidator(SlideLimitationValidator):
 class Slide:
     def __init__(self,
                  name: str,
-                 limitation_class:
-                 SlideLimitationValidator) \
-            -> None:
+                 limitation_class: SlideLimitationValidator,
+                 ) -> None:
         self.name = name
         self.limitation_class = limitation_class
 
